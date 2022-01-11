@@ -6,32 +6,26 @@ import Foundation
 //after test is passed at 100% time complexity O(1) - nice
 public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
     //goal is an efficient algorithm
-
-
+    
     //starting point is x
     //end point is y
-   // and it jumps D amount
-
-
-//basic mmath would look like this:
-// ( y - x ) / D
-// and it wopuld need to ne rounded up
-
-let distance = Y - X
+    // and it jumps D amount
+    
+    
+    //basic mmath would look like this:
+    // ( y - x ) / D
+    // and it wopuld need to ne rounded up
+    
+    let distance = Y - X
     var numberOfJumps = Double(distance) / Double(D)
     
     let j = numberOfJumps.rounded(.up)
     return Int(j)
-
+    
 }
 
 
-
-
-
 solution(20, 60, 700)
-
-
 
 
 
@@ -49,12 +43,6 @@ class FrogJumpTest : XCTestCase {
         XCTAssertEqual(manyJumps, 1250, "❌ Faild on manyJumps")
 
     }
-    
-    
-    
-    
-    
-    
 }
 
 

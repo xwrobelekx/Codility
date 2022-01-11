@@ -81,13 +81,6 @@ public func solution(_ A : inout [Int]) -> Int {
 //
 //    }
     
-    
-    
-   
-    
-    print("\(A[2...4])")
-    
-    
     return 1
 }
 

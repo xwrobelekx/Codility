@@ -4,9 +4,8 @@ import Foundation
 
 public func solution(_ A : inout [Int]) -> Int {
     
-    
     //go thry array and need to find the smallest difference between sum on left and sum on right
-   
+    
     var rightSum = 0
     
     for number in A {
@@ -19,31 +18,19 @@ public func solution(_ A : inout [Int]) -> Int {
     
     var leftSum = 0
     for i in 0..<A.count - 1 {
-        
         leftSum += A[i]
-        print("leftSum:")
-        print(leftSum)
         rightSum -= A[i]
-        print("rightSum")
-        print(rightSum)
-        
         //need to turn this into positive in case is negative
         let currentDifference = abs(rightSum - leftSum)
         print("cur dif: \(currentDifference), dif: \(difference)")
         if currentDifference < difference {
-              difference = currentDifference
+            difference = currentDifference
         }
     }
-        
+    
     return difference
     
 }
-
-//
-//var testArr = [3, 1, 2, 4, 3]
-//solution(&testArr)
-
-
 
 import XCTest
 
@@ -71,7 +58,6 @@ class TestTapeEquilibrium : XCTestCase {
         XCTAssertEqual(solution(&testArr), 50, "❌ Failed on two negative numbers")
     }
  
-    
 }
 
 TestTapeEquilibrium.defaultTestSuite.run()

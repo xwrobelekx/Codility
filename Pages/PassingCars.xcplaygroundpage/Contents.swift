@@ -7,31 +7,28 @@ import Foundation
 
 public func solution(_ A : inout [Int]) -> Int {
     
-    
     var pairCount = 0
     
-//    for (index, zero) in A.enumerated() {
-//        print("index: \(index), zero: \(zero)")
-//        if zero == 0 {
-//            for i in index..<A.count {
-//                print("i = \(i)")
-//                let one = A[i]
-//                print("one: \(one)")
-//                if one == 1 {
-//                    pairCount += 1
-//                }
-//            }
-//        }
-//    }
-    
+    //    for (index, zero) in A.enumerated() {
+    //        print("index: \(index), zero: \(zero)")
+    //        if zero == 0 {
+    //            for i in index..<A.count {
+    //                print("i = \(i)")
+    //                let one = A[i]
+    //                print("one: \(one)")
+    //                if one == 1 {
+    //                    pairCount += 1
+    //                }
+    //            }
+    //        }
+    //    }
     
     
     //nice this solutionsis perfect
     //time complexity: O(N) - only one loop
     var zeroCount = 0
-
+    
     for num in A {
-
         if num == 0 {
             zeroCount += 1
         }
@@ -57,13 +54,11 @@ class PassingCarsTests : XCTestCase {
     
     func testExample() {
         var arr = [0, 1, 0, 1, 1]
-
         XCTAssertEqual(solution(&arr), 5, "❌ Fails on Example test")
     }
     
     func testExample2() {
         var arr = [0, 1, 0, 1, 1, 0, 1]
-        
         XCTAssertEqual(solution(&arr), 8, "❌ Fails on Example2 test")
     }
     
@@ -78,13 +73,6 @@ class PassingCarsTests : XCTestCase {
         XCTAssertEqual(solution(&arr), 0, "❌ Failed on all Ones test")
 
     }
-    
-    //How to run a test on a massive numbers and check the time it took
-    // well use one of the initalizers to create large array
-    // the test itseld tell you the time it takes to execute code.
-    
-    
-    
 }
 
 PassingCarsTests.defaultTestSuite.run()

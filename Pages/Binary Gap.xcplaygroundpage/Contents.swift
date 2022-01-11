@@ -22,7 +22,6 @@ public func solution(_ N : Int) -> Int {
     
     //convert the number to binary
     let binaryString = String(N, radix: 2)
-   // print(binaryString)
     
     // some var that will keep the count of the gap
     var binaryGap = 0
@@ -40,12 +39,9 @@ public func solution(_ N : Int) -> Int {
         if c == "1" && isOne == false {
             isOne = true
         } else if c == "0" && isOne == true {
-            //   if isOne == true {
             temporatyGap += 1
-            //}
         } else if c == "1" && isOne == true{
             if temporatyGap > binaryGap {
-          //      print("temp gap is larger than binary gap")
                 binaryGap = temporatyGap
                
             }
@@ -53,7 +49,6 @@ public func solution(_ N : Int) -> Int {
         }
         
     }
-    //return the gap
     return binaryGap
 }
 

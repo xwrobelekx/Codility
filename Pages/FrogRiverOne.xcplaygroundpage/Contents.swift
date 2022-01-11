@@ -7,24 +7,17 @@ import Foundation
 
 public func solution(_ X : Int, _ A : inout [Int]) -> Int {
     // write your code in Swift 4.2.1 (Linux)
-    
     //what if i generated a sorted arry of number from 1 ... X
     //and then loop over thru A and remove items from that array and keep count oh how many moves it took
+    //index will tell me the enumeration number aka the t
+    var setOfUniqueNumbers : Set<Int> = []
     
-    
-    
-    
-
-//index will tell me the enumeration number aka the t
-var setOfUniqueNumbers : Set<Int> = []
-
-for (index, number) in A.enumerated() {
-    setOfUniqueNumbers.insert(number)
-    if setOfUniqueNumbers.count == X {
-        return index
+    for (index, number) in A.enumerated() {
+        setOfUniqueNumbers.insert(number)
+        if setOfUniqueNumbers.count == X {
+            return index
+        }
     }
-}
-
     return -1
 }
 
@@ -44,9 +37,6 @@ class FrogRiverOneTest : XCTestCase {
         var numbers = [2,2,2,2,2]
         XCTAssertEqual(solution(2, &numbers), -1, "❌ Failed when all the number are the same case.")
     }
-    
-    
-    
     
 }
 
