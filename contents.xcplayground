@@ -14,5 +14,6 @@
         <page name='CountDiv (M)'/>
         <page name='MinAvgTwoSlice'/>
         <page name='CW cinema'/>
+        <page name='DistinctNumbers'/>
     </pages>
 </playground>
