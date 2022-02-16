@@ -16,5 +16,6 @@
         <page name='SmallestPositiveInt (M)'/>
         <page name='tape equilibrium'/>
         <page name='Sorting - MaxProsuctOfThree'/>
+        <page name='Sorting - Trinagle'/>
     </pages>
 </playground>
