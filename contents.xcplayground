@@ -3,17 +3,18 @@
     <pages>
         <page name='Array Rotation'/>
         <page name='Binary Gap'/>
+        <page name='CountDiv (M)'/>
+        <page name='CW cinema'/>
+        <page name='Sorting - DistinctNumbers'/>
         <page name='FrogJump'/>
-        <page name='MissingNumber'/>
-        <page name='tape equilibrium'/>
         <page name='FrogRiverOne'/>
+        <page name='MaxCounters (M)'/>
+        <page name='MinAvgTwoSlice'/>
+        <page name='MissingNumber'/>
+        <page name='PassingCars'/>
         <page name='PermutationCheck'/>
         <page name='SmallestPositiveInt (M)'/>
-        <page name='MaxCounters (M)'/>
-        <page name='PassingCars'/>
-        <page name='CountDiv (M)'/>
-        <page name='MinAvgTwoSlice'/>
-        <page name='CW cinema'/>
-        <page name='DistinctNumbers'/>
+        <page name='tape equilibrium'/>
+        <page name='Sorting - MaxProsuctOfThree'/>
     </pages>
 </playground>
