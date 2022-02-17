@@ -17,5 +17,8 @@
         <page name='tape equilibrium'/>
         <page name='Sorting - MaxProsuctOfThree'/>
         <page name='Sorting - Trinagle'/>
+        <page name='SecondsToString'/>
+        <page name='Task2'/>
+        <page name='Task3'/>
     </pages>
 </playground>
