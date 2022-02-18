@@ -18,7 +18,8 @@
         <page name='Sorting - MaxProsuctOfThree'/>
         <page name='Sorting - Trinagle'/>
         <page name='SecondsToString'/>
-        <page name='Task2'/>
+        <page name='PointIn20Pixelradius'/>
         <page name='Task3'/>
+        <page name='Sorting - NumberOfDiscIntersections (M)'/>
     </pages>
 </playground>
