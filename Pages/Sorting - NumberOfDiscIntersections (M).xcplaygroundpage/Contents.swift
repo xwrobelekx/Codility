@@ -75,7 +75,7 @@ func solution( _ A : [Int]) -> Int {
     
     //#3 for EACH starting point check if its <= agains the end points
     while i < sortedStaetingPoints.count {
-        print("p: \(sortedStaetingPoints[i]), endPpint: \(sortedEndPoints[iteration] )")
+//        print("p: \(sortedStaetingPoints[i]), endPpint: \(sortedEndPoints[iteration] )")
         
         //if current starting point is smaller than end i-th end point then increment open disks
         //if you there are open disks then increment the intersections by the number of open disks

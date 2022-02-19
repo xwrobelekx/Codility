@@ -2,28 +2,47 @@
 
 import Foundation
 
-//func solution(sum: Double) -> [Double] {
-//    
-//    let bills = [50, 20, 10, 5, 1, 0.25, 0.10, 0.05, 0.01]
-//    var output : [Double] = []
-//    var currentSum = sum
-//    var i = 0
-//    
-//    while currentSum != 0 && i < bills.count{
-//    let currentBill = bills[i]
-//         if currentSum - currentBill >= 0{
-//             output.append(currentBill)
-//             currentSum -= currentBill
-//         } else {
-//             i += 1
-//         }
-//       
-//        
-//    }
-//
-//    return output}
-//
-//solution(sum: 21.46)
+
+//given the sum return smallest amout of bills
+
+func solution(sum: Double) -> [Double] {
+    
+    let bills = [50, 20, 10, 5, 1, 0.25, 0.10, 0.05, 0.01]
+    var output : [Double] = []
+    var currentSum = sum
+    var i = 0
+    
+    while currentSum != 0 && i < bills.count{
+    let currentBill = bills[i]
+         if currentSum - currentBill >= 0{
+             output.append(currentBill)
+             currentSum -= currentBill
+         } else {
+             i += 1
+         }
+       
+        
+    }
+
+    return output}
+
+solution(sum: 21.46)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 //
 //func solution(values: [Double], n: Int) -> Double {
@@ -67,6 +86,11 @@ import Foundation
 
 
 
+
+
+
+
+
 /*
  
  
@@ -104,6 +128,13 @@ import Foundation
  
  
  */
+
+
+
+
+
+
+
 
 
 //: [Next](@next)
