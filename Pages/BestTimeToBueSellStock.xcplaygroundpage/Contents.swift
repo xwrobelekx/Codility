@@ -23,13 +23,18 @@ func maxProfit(_ prices: [Int]) -> Int {
     
     while sellIndex < prices.count {
         
+        buyPrice = prices[buyIndex]
+        sellPrice = prices[sellIndex]
+        let currentProfit = sellPrice - buyPrice
         
-        
-        
-        
+        if buyPrice > sellPrice {
+            buyIndex += 1
+        } else {
+            maxProfit = max(currentProfit, maxProfit)
+            sellIndex += 1
+        }
         
     }
-    
 
     return maxProfit
     
