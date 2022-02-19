@@ -19,7 +19,8 @@
         <page name='Sorting - Trinagle'/>
         <page name='SecondsToString'/>
         <page name='PointIn20Pixelradius'/>
-        <page name='Task3'/>
+        <page name='SmallesAmoutOfBills'/>
         <page name='Sorting - NumberOfDiscIntersections (M)'/>
+        <page name='BestTimeToBueSellStock'/>
     </pages>
 </playground>

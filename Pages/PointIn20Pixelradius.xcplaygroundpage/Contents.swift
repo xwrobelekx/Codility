@@ -9,6 +9,7 @@ public func solution(_ A : [Int], _ B : [Int], _ X : Int, _ Y : Int) -> Int {
 
     //given x and y calculate all posibble numbers in 20 pixel radius
     //go thru the arrays and see if i have a match
+    
 
     if A.count == B.count {
         for i in 0..<A.count {

@@ -20,7 +20,6 @@ func solution(sum: Double) -> [Double] {
          } else {
              i += 1
          }
-       
         
     }
 
