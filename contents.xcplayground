@@ -23,5 +23,6 @@
         <page name='Sorting - NumberOfDiscIntersections (M)'/>
         <page name='BestTimeToBueSellStock'/>
         <page name='CountOfLinkedList'/>
+        <page name='Queue&amp;Stacks brackets'/>
     </pages>
 </playground>
