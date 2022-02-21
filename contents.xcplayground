@@ -22,5 +22,6 @@
         <page name='SmallesAmoutOfBills'/>
         <page name='Sorting - NumberOfDiscIntersections (M)'/>
         <page name='BestTimeToBueSellStock'/>
+        <page name='CountOfLinkedList'/>
     </pages>
 </playground>
