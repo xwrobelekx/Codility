@@ -32,7 +32,7 @@ public func solution(_ S : String) -> Int {
         var opposite = ""
         if char == ")" {
             opposite = "("
-        } 
+        }
         
         if stack.isEmpty {
             stack.append(char)
@@ -59,18 +59,23 @@ class ProprtlyNestsTests : XCTestCase {
     
     func testExample(){
         let input = "(()(())())"
-        XCTAssertEqual(solution(input), 1, "Failed on example test one")
+        XCTAssertEqual(solution(input), 1, "❌Failed on example test one")
     }
     
     func testExample2(){
         let input = "())"
-        XCTAssertEqual(solution(input), 0, "Failed on example test two")
+        XCTAssertEqual(solution(input), 0, "❌Failed on example test two")
     }
     
     func testExample3(){
         let input = ")("
-        XCTAssertEqual(solution(input), 0, "Failed on example test three")
-
+        XCTAssertEqual(solution(input), 0, "❌Failed on example test three")
+    }
+    
+    
+    func testExample4(){
+        let input = "()"
+        XCTAssertEqual(solution(input), 1, "❌Failed on example test three")
     }
     
     
