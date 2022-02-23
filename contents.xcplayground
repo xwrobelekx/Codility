@@ -24,5 +24,6 @@
         <page name='BestTimeToBueSellStock'/>
         <page name='CountOfLinkedList'/>
         <page name='Queue&amp;Stacks brackets'/>
+        <page name='Queue&amp;Stacks balance'/>
     </pages>
 </playground>
